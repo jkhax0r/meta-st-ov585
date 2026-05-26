@@ -7,4 +7,5 @@ Available images for OpenSTLinux layers are:
       - Supported images:
           cargt-image-weston      -   Cargt OpenSTLinux default Weston image
           cargt-image-dev         -   Cargt OpenSTLinux development image
+          ov585-cargt-image-dev   -   OV585 test hardware using Cargt SOM
 
