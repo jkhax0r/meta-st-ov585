@@ -18,6 +18,8 @@ Flash the eMMC image from WSL using the Windows STM32CubeProgrammer CLI:
 
 This stages the FlashLayout and referenced image files into `flash-ov585-bundle/` at the workspace root before invoking STM32CubeProgrammer. That avoids problems with Windows tools resolving WSL symlinks or absolute Linux paths.
 
+The default FlashLayout uses the base CARGT programmer/bootloader files for eMMC flashing. The generated bootfs still selects the 10.1-inch `glt1011280800is1` Linux device tree by default.
+
 The direct Linux/WSL variant is also available:
 
 ```sh
