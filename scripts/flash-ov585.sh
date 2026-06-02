@@ -8,7 +8,7 @@ SOURCE_DEPLOY_DIR="${SOURCE_DEPLOY_DIR:-$WORKSPACE_ROOT/build-ov585openstlinuxwe
 FLASHLAYOUT_REL="${FLASHLAYOUT_REL:-flashlayout_ov585-cargt-image-dev/optee/FlashLayout_emmc_stm32mp257f-cargt-00395-00365v3-glt1011280800is1-optee.tsv}"
 STM32_PROGRAMMER_DEFAULT="/mnt/c/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI.exe"
 STM32_PORT="${STM32_PORT:-usb1}"
-STM32_VERBOSITY="${STM32_VERBOSITY:-3}"
+STM32_VERBOSITY="${STM32_VERBOSITY:-1}"
 STAGE_DIR="${STAGE_DIR:-}"
 DRY_RUN="${DRY_RUN:-0}"
 
